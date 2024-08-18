@@ -36,11 +36,20 @@ module.exports = {
       ],
     },
     bitfinex: {
+      interval: 6 * 1000,
       symbols: [
         'BTC/USDT',
         'ETH/USDT',
         'BNB/USDT',
       ],
     },
+    curve: {
+      interval: 6 * 1000,
+      symbols: [
+        'BTC/USDT:0x071c661B4DeefB59E2a3DdB20Db036821eeE8F4b',
+        'ETH/USDT:0x071c661B4DeefB59E2a3DdB20Db036821eeE8F4b',
+        'BNB/USDT:0x071c661B4DeefB59E2a3DdB20Db036821eeE8F4b',
+      ],
+    }
   }
 }
